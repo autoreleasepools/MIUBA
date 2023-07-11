@@ -1,6 +1,7 @@
 # Exploring Adversarial Robustness of Vision-Language Pre-training Models: A Study on Modal Interaction and Defense Mechanisms
 ## Introduction
 Considering its excellent performance on downstream tasks, vision-language pre-training model (VLP) have experienced explosive development. However, research on their adversarial robustness remains largely unexplored. We propose a multimodal attack method on the VLP model called \textit{Mutual Information Upper Bound Minimization Multimodal Attack} (MIUBA), and investigate the adversarial robustness of VLP models through it, particularly the modal interaction module. Additionally, to mitigate the impact of adversarial attacks on the VLP model, we design an adversarial sample detection method based on the differences of composite feature-gradient during modal interaction. Experimental results demonstrate that MIUBA achieves strong attack performance on different VLP models and downstream tasks, exposing the vulnerability of the modal interaction mechanism in VLP models. Our detection method exhibits competitive performance in detecting both single-modal and multimodal attacks, compared to other attacks, MIUBA has demonstrated a slightly higher level of evasion against our detection method. Analyzing the weaknesses of VLP models and developing novel detection methods hopefully contribute to their secure deployment in various applications. 
+![image](https://github.com/autoreleasepools/MIUBA/blob/main/docs/pipeline_figure.png)
 ## Requirements
 - Python 3.9+
 - Pytorch 1.13.0
